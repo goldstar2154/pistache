@@ -17,7 +17,7 @@ namespace Const
     static constexpr size_t DefaultTimerPoolSize = 128;
 
     // Defined from CMakeLists.txt in project root
-    static constexpr size_t DefaultMaxRequestSize = 4096;
+    static constexpr size_t DefaultMaxRequestSize = 4096 * 4;
     static constexpr size_t DefaultMaxResponseSize = std::numeric_limits<uint32_t>::max();
     static constexpr size_t ChunkSize  = 1024;
 
